@@ -3,14 +3,14 @@
   "description": "check if a source string is an es6 module",
   "keywords": [
     "es6",
+    "es6-modules",
+    "ecmascript",
     "module",
     "modules"
   ],
   "version": "1.0.0",
   "author": {
-    "name": "Jonathan Ong",
-    "email": "me@jongleberry.com",
-    "url": "http://jongleberry.com"
+    "name": "Anton Wilhelm"
   },
   "license": "MIT",
   "repository": {
@@ -21,7 +21,7 @@
     "mocha": "^6.0.2"
   },
   "scripts": {
-    "test": "mocha --reporter spec --bail"
+    "test": "mocha --reporter spec"
   },
   "readmeFilename": "README.md",
   "bugs": {
